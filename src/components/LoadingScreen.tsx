@@ -73,7 +73,7 @@ export default function LoadingScreen({ onFinish }: { onFinish: () => void }) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="mb-2"
             >
-              <h1 className="font-display text-4xl font-extrabold tracking-widest text-white leading-none">
+              <h1 className="font-display text-2xl font-extrabold tracking-widest text-white leading-none">
                 ALPHA <span className="text-alpha-red">KAI</span>
               </h1>
             </motion.div>

@@ -74,7 +74,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Word-by-word Reveal Headline */}
-        <h1 className="font-display text-4xl sm:text-6xl md:text-8xl tracking-tighter leading-none uppercase font-extrabold flex flex-wrap justify-center gap-x-2 sm:gap-x-4 mb-6">
+        <h1 className="font-display text-2xl sm:text-4xl md:text-6xl tracking-tighter leading-tight uppercase font-extrabold flex flex-wrap justify-center gap-x-2 sm:gap-x-4 mb-6">
           {words.map((word, wordIdx) => (
             <span key={wordIdx} className="overflow-hidden inline-block py-2">
               <motion.span

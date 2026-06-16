@@ -17,7 +17,7 @@ export default function Plans() {
         {/* Heading */}
         <div className="text-center mb-16 sm:mb-24">
           <span className="text-xs font-mono font-bold tracking-widest text-alpha-red uppercase mb-3 inline-block">MENSALIDADES PLANOS</span>
-          <h2 className="font-display text-4xl sm:text-5xl uppercase tracking-tight font-extrabold text-white">
+          <h2 className="font-display text-2xl sm:text-4xl uppercase tracking-tight font-extrabold text-white">
             ESCOLHA SEU <span className="text-alpha-red">DESTINO</span>
           </h2>
           <p className="max-w-md mx-auto text-gray-400 text-sm font-sans font-light leading-relaxed mt-3">

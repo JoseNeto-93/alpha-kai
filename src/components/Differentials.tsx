@@ -61,7 +61,7 @@ export default function Differentials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="font-display text-4xl sm:text-5xl md:text-6xl tracking-tight uppercase font-extrabold text-white"
+            className="font-display text-2xl sm:text-4xl md:text-5xl tracking-tight uppercase font-extrabold text-white"
           >
             O PADRÃO <span className="text-alpha-red">ALPHA KAI</span>
           </motion.h2>

@@ -46,7 +46,7 @@ export default function Contact() {
         {/* Title */}
         <div className="text-center mb-16 sm:mb-20">
           <span className="text-xs font-mono font-bold tracking-widest text-alpha-red uppercase mb-3 inline-block">FALE CONOSCO</span>
-          <h2 className="font-display text-4xl sm:text-5xl uppercase tracking-tight font-extrabold text-white">
+          <h2 className="font-display text-2xl sm:text-4xl uppercase tracking-tight font-extrabold text-white">
             QUER SABER <span className="text-alpha-red">COMO CHEGAR?</span>
           </h2>
           <div className="h-1 w-16 bg-alpha-red mx-auto mt-4 rounded-full" />

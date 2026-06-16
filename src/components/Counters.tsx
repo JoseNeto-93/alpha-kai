@@ -41,7 +41,7 @@ function CountUpItem({ target, prefix = "", suffix = "" }: { target: number; pre
   }, [isInView, target]);
 
   return (
-    <div ref={containerRef} className="font-display text-4xl sm:text-5xl md:text-6xl font-black text-white select-none tracking-tight">
+    <div ref={containerRef} className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-white select-none tracking-tight">
       <span className="text-alpha-red">{prefix}</span>
       {currentValue}
       <span className="text-alpha-red">{suffix}</span>

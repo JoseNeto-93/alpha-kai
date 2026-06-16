@@ -47,7 +47,7 @@ export default function Structure() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
             <span className="text-xs font-mono font-bold tracking-widest text-alpha-red uppercase mb-3 inline-block">COMPLEXO DE TREINAMENTO</span>
-            <h2 className="font-display text-4xl sm:text-5xl tracking-tight uppercase font-extrabold text-white">
+            <h2 className="font-display text-2xl sm:text-4xl tracking-tight uppercase font-extrabold text-white">
               ESTRUTURA <span className="text-alpha-red">DE PONTA</span>
             </h2>
             <div className="h-1 w-20 bg-alpha-red mt-3 rounded-full" />
@@ -110,7 +110,7 @@ export default function Structure() {
                   <Compass className="h-3.5 w-3.5 animate-spin" style={{ animationDuration: '8s' }} /> ÁREA {currentIndex + 1} DE {slideCount}
                 </span>
 
-                <h3 className="font-display text-2xl sm:text-4xl lg:text-5xl uppercase tracking-wider text-white font-black leading-tight">
+                <h3 className="font-display text-xl sm:text-3xl lg:text-4xl uppercase tracking-wider text-white font-black leading-tight">
                   {STRUCTURE_SLIDES[currentIndex].title}
                 </h3>
 

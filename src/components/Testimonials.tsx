@@ -30,7 +30,7 @@ export default function Testimonials() {
         {/* Header */}
         <div className="text-center mb-16 sm:mb-20">
           <span className="text-xs font-mono font-bold tracking-widest text-alpha-red uppercase mb-3 inline-block">MURU DE RESULTADOS</span>
-          <h2 className="font-display text-4xl sm:text-5xl uppercase tracking-tight font-extrabold text-white">
+          <h2 className="font-display text-2xl sm:text-4xl uppercase tracking-tight font-extrabold text-white">
             QUEM TREINA, <span className="text-alpha-red">RECOMENDA</span>
           </h2>
           {/* Subtle Google Rating Certification Badge */}
